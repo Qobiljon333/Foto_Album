@@ -1,0 +1,40 @@
+
+@media screen and (max-width:600px) {
+    
+.image a{
+    text-decoration: none;
+    display: block;
+    margin: auto;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+}
+.image .a{
+   width: 95%;
+   margin: 7px auto;
+   padding: 3px 0;
+   display: flex;align-items: center;
+   
+   justify-content: center;
+   border: 1px solid #000;
+   border-radius:15px;
+   background: linear-gradient(90deg,rgb(255, 8, 214),rgb(14, 29, 165),rgb(250, 11, 11));
+
+}
+.nonee{
+    display: none;
+}
+.ACTIVE{
+    display: block;
+}
+
+    
+}
+@media screen and (max-width:267px) {
+    #input_number{
+        margin-left: 10%;
+    }   
+    #input_submit{
+        margin-top: 20px;
+        margin-left: 38%;
+    }
+}
